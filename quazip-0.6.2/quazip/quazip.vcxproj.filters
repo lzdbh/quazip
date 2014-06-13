@@ -33,12 +33,6 @@
     <ClInclude Include="quacrc32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="quagzipfile.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="quaziodevice.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="quazip.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -46,9 +40,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="quazipdir.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="quazipfile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="quazipfileinfo.h">
@@ -104,14 +95,34 @@
     <ClCompile Include="zip.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="moc\moc_quagzipfile.cpp">
+    <ClCompile Include="debug\moc_quagzipfile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="moc\moc_quaziodevice.cpp">
+    <ClCompile Include="release\moc_quagzipfile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="moc\moc_quazipfile.cpp">
+    <ClCompile Include="debug\moc_quaziodevice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="release\moc_quaziodevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_quazipfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_quazipfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="quagzipfile.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quaziodevice.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quazipfile.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>

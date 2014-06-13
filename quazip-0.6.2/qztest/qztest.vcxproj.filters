@@ -18,27 +18,6 @@
     <ClInclude Include="qztest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="testjlcompress.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="testquachecksum32.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="testquagzipfile.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="testquaziodevice.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="testquazip.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="testquazipdir.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="testquazipfile.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="qztest.cpp">
@@ -65,30 +44,67 @@
     <ClCompile Include="testquazipfile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="moc\moc_testjlcompress.cpp">
+    <ClCompile Include="testquazipfileinfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="moc\moc_testquachecksum32.cpp">
+    <ClCompile Include="testquazipnewinfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="moc\moc_testquagzipfile.cpp">
+    <ClCompile Include=".moc\moc_testjlcompress.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="moc\moc_testquaziodevice.cpp">
+    <ClCompile Include=".moc\moc_testquachecksum32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="moc\moc_testquazip.cpp">
+    <ClCompile Include=".moc\moc_testquagzipfile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="moc\moc_testquazipdir.cpp">
+    <ClCompile Include=".moc\moc_testquaziodevice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="moc\moc_testquazipfile.cpp">
+    <ClCompile Include=".moc\moc_testquazip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\moc_testquazipdir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\moc_testquazipfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\moc_testquazipfileinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\moc_testquazipnewinfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="debug\BuildLog.htm" />
-    <None Include="release\BuildLog.htm" />
+    <CustomBuild Include="testjlcompress.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="testquachecksum32.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="testquagzipfile.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="testquaziodevice.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="testquazip.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="testquazipdir.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="testquazipfile.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="testquazipfileinfo.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="testquazipnewinfo.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
